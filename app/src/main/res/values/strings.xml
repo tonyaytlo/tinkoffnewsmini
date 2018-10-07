@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TinkoffNewsMini</string>
+    <string name="error_no_connection">Проверьте интернет соединение</string>
+    <string name="error_unknown">Неизвестная ошбика</string>
+</resources>
