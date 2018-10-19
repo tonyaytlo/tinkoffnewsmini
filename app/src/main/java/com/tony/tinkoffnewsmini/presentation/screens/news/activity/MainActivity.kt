@@ -18,7 +18,7 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         if (supportFragmentManager.findFragmentByTag(NewsListFragment.TAG) == null) {
-            makeTransactionAdd(R.id.container, NewsListFragment(), NewsListFragment.TAG, true)
+            makeTransactionAdd(R.id.container, NewsListFragment(), NewsListFragment.TAG)
         }
     }
 
